@@ -153,9 +153,9 @@ custom_formats_sonarr:
 - name: Bad Multis
   score: -10000
 - name: Banned Groups
-  score: -10000
+  score: 0
 - name: Banned Groups (Title)
-  score: -10000
+  score: 0
 - name: BR-DISK
   score: -10000
 - name: Incorrect Source
