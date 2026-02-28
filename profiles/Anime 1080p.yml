@@ -2,7 +2,7 @@ name: Anime 1080p
 description: 'Based on the TRaSH Guides Anime Profile, focusing on media that has
   Dual Audio.
 
-  - This profile will grab between a SDTV - 1080p Bluray file.
+  - This profile will grab between a 720p - 1080p Bluray file.
 
   - You will be preferring Dual Audio media (ie including English along with original
   language). If you''d prefer to **only** have the original language (Japanese), remove
@@ -110,7 +110,7 @@ custom_formats:
 - name: v0
   score: -51
 - name: Anime LQ
-  score: -10000
+  score: 0
 - name: Anime Raws
   score: -10000
 - name: ASL
@@ -118,9 +118,9 @@ custom_formats:
 - name: AV1
   score: -10000
 - name: Banned Groups
-  score: -10000
+  score: 0
 - name: Banned Groups (Title)
-  score: -10000
+  score: 0
 - name: Dubs Only
   score: -10000
 - name: VOSTFR
@@ -160,20 +160,6 @@ qualities:
     name: HDTV-720p
 - id: 13
   name: Bluray-720p
-- id: -4
-  name: WEB 480p
-  description: ''
-  qualities:
-  - id: 20
-    name: WEBRip-480p
-  - id: 19
-    name: WEBDL-480p
-- id: 18
-  name: Bluray-480p
-- id: 22
-  name: DVD
-- id: 24
-  name: SDTV
 upgrade_until:
   id: -2
   name: WEB 1080p
