@@ -1,0 +1,7 @@
+name: UDF
+pattern: \b(UDF)\b
+description: ''
+tags:
+- Radarr
+- Sonarr
+tests: []

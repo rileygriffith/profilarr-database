@@ -1,0 +1,7 @@
+name: mottoj
+pattern: \b(mottoj)\b
+description: ''
+tags:
+- Radarr
+- Sonarr
+tests: []

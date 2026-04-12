@@ -12,14 +12,14 @@ tags:
 - 1080p
 - LQ
 upgradesAllowed: true
-minCustomFormatScore: 1
+minCustomFormatScore: 0
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
 - name: SIDCA Groups
   score: 300
 - name: SIDCA Fallback Groups
-  score: 250
+  score: 200
 - name: x265 (HD)
   score: 50
 - name: WEB Tier 01
